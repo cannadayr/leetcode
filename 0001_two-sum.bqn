@@ -9,7 +9,7 @@ UpperTriangular ← {<⌜˜∘↕𝕩}
 # Given rank-2 boolean array 𝕩, return the multidimensional indices of the 1's
 HighRankIndices ← {/○⥊⟜(↕≢)𝕩}
 
-# Given an array of integers 𝕩 and an integer target 𝕨, return indices of the two numbes such that they add to target 𝕨
+# Given an array of integers 𝕩 and an integer target 𝕨, return indices of the two numbers such that they add to target 𝕨
 TwoSum ← {HighRankIndices (UpperTriangular ≠𝕩) ∧ 𝕨 AddsToTarget 𝕩}
 
 •Show ! ⟨⟨0,1⟩⟩ ≡ 9 TwoSum ⟨2,7,11,15⟩
